@@ -1,0 +1,22 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "Submission Bookshelf API",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/main.js",
+    "lint": "eslint ./"
+  },
+  "author": "Moch Yusuf",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.16"
+  }
+}
